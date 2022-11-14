@@ -1,0 +1,10 @@
+.eslintrc.cjs
+**/*.d.ts
+**/*.html
+vite.config.js
+svelte.config.js
+
+libraries/
+node_modules/
+
+./src/App.svelte
