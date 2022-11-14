@@ -1,44 +1,44 @@
 {
-  "name": "lfg",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "lint-staged": {
-    "*.{ts,svelte}": "yarn run lint:fix",
-    "*.{html,json}": "prettier --write"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "package": "svelte-kit package",
-    "check": "svelte-check --tsconfig ./tsconfig.json",
-    "format": "prettier --write ./src/**/*.{js,svelte,html,ts}",
-    "lint": "eslint --cache './src/**/*.{js,ts,svelte}'",
-    "lint:fix": "eslint --cache --fix './src/**/*.{js,ts,svelte}'",
-    "prelint": "npm run format"
-  },
-  "devDependencies": {
-    "@ota-meshi/eslint-plugin-svelte": "^0.34.1",
-    "@sveltejs/adapter-static": "^1.0.0-next.48",
-    "@sveltejs/vite-plugin-svelte": "^1.1.0",
-    "@tsconfig/svelte": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.42.1",
-    "@typescript-eslint/parser": "^5.42.1",
-    "eslint": "^8.27.0",
-    "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-svelte3": "^4.0.0",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1",
-    "prettier-plugin-svelte": "^2.8.0",
-    "svelte": "^3.52.0",
-    "svelte-check": "^2.9.2",
-    "svelte-preprocess": "^4.10.7",
-    "tslib": "^2.4.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.2.3"
-  }
+	"name": "lfg",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"lint-staged": {
+		"*.{ts,svelte}": "yarn run lint:fix",
+		"*.{html,json}": "prettier --write"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"package": "svelte-kit package",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"format": "prettier --write ./src/**/*.{svelte,ts}",
+		"lint": "eslint --cache './src/**/*.{ts,svelte}'",
+		"lint:fix": "eslint --cache --fix './src/**/*.{ts,svelte}'",
+		"prelint": "npm run format"
+	},
+	"devDependencies": {
+		"@ota-meshi/eslint-plugin-svelte": "^0.34.1",
+		"@sveltejs/adapter-static": "^1.0.0-next.48",
+		"@sveltejs/vite-plugin-svelte": "^1.1.0",
+		"@tsconfig/svelte": "^3.0.0",
+		"@typescript-eslint/eslint-plugin": "^5.42.1",
+		"@typescript-eslint/parser": "^5.42.1",
+		"eslint": "^8.27.0",
+		"eslint-config-airbnb-typescript": "^17.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"husky": "^8.0.2",
+		"lint-staged": "^13.0.3",
+		"prettier": "^2.7.1",
+		"prettier-plugin-svelte": "^2.8.0",
+		"svelte": "^3.52.0",
+		"svelte-check": "^2.9.2",
+		"svelte-preprocess": "^4.10.7",
+		"tslib": "^2.4.0",
+		"typescript": "^4.6.4",
+		"vite": "^3.2.3"
+	}
 }
